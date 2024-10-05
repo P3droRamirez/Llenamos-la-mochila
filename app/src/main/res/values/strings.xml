@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Llenamos la mochila</string>
+    <string name="contenido">Contenido :</string>
+    <string name="gorra">Gorras</string>
+    <string name="baniador">Bañadores</string>
+    <string name="camisetas">Camisetas</string>
+    <string name="zapatos">Zapatos</string>
+    <string name="pantalones">Pantalones</string>
+    <string name="libros">Libros</string>
+    <string name="vaciarMochila">VACIAR MOCHILA</string>
+</resources>

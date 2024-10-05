@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/contenido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/contenido"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="550dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/gorras"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gorra" />
+
+        <CheckBox
+            android:id="@+id/baniador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/baniador" />
+
+        <CheckBox
+            android:id="@+id/camisetas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/camisetas" />
+
+        <CheckBox
+            android:id="@+id/zapatos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/zapatos" />
+
+        <CheckBox
+            android:id="@+id/pantalones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pantalones" />
+
+        <CheckBox
+            android:id="@+id/libros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/libros" />
+
+        <TextView
+            android:id="@+id/pesoTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="TextView"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/vaciarMochila"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#2196F3"
+            android:text="@string/vaciarMochila"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
